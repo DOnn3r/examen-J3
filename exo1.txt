@@ -1,0 +1,3 @@
+En utilisant 'ES Modules' pour pouvoir utiliser la fonction "helloWorld()" du fichier 'test.js' il faudra l'exporter.
+Pour ce faire on ajoute juste export devant la fonction 'helloWorld()' donc comme ceci 'export function helloWorld()'.
+Ensuite dans le fichier 'autre.js' on fait 'import { helloWorld } from './test.js' pour pouvoir l'importer et l'utiliser dans le fichier 'autre.js'.
